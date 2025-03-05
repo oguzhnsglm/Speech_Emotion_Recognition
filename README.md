@@ -1,12 +1,12 @@
 # Speech_Emotion_Recognition
 
-Açıklama
+## Açıklama
 
 Bu proje, SAVE, TESS ve RAVDESS veri setleri üzerinde özellik çıkarımı, özellik seçimi (feature selection) ve farklı makine öğrenmesi ile derin öğrenme algoritmalarının uygulanmasını içeren bir duygu tanıma sistemidir.
 
-Proje Adımları
+## Proje Adımları
 
-1️⃣ Özellik Çıkarımı
+## 1️⃣ Özellik Çıkarımı
 
 Veri setlerindeki ses dosyalarından aşağıdaki akustik özellikler çıkarılır:
 
@@ -22,7 +22,7 @@ Zero Crossing Rate
 
 RMS Energy
 
-2️⃣ Özellik Seçimi (Feature Selection)
+## 2️⃣ Özellik Seçimi (Feature Selection)
 
 Tüm çıkarılan özellikler arasından en önemli olanlarını belirlemek için 4 farklı özellik seçme algoritması kullanılır:
 
@@ -48,7 +48,7 @@ Aynı işlem CFS, REL ve SU için de yapılır.
 
 Dört algoritmanın verdiği sıralama puanları toplanır ve en yüksek skora sahip 100 özellik seçilir.
 
-3️⃣ Makine Öğrenmesi ve Derin Öğrenme Algoritmaları
+## 3️⃣ Makine Öğrenmesi ve Derin Öğrenme Algoritmaları
 
 Seçilen özellikler kullanılarak ML ve DL modelleri eğitilir ve performansları karşılaştırılır:
 
@@ -68,7 +68,7 @@ Long Short-Term Memory (LSTM)
 
 Gated Recurrent Unit (GRU)
 
-4️⃣ Rank-Based Adaptive Model (RAM) Yöntemi
+## 4️⃣ Rank-Based Adaptive Model (RAM) Yöntemi
 
 Bu projede RAM algoritması kullanılarak en iyi özellikler belirlenir. RAM algoritması şu mantıkla çalışır:
 
